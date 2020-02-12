@@ -1,7 +1,7 @@
 
-<h4 align="center">
+<h2 align="center">
   # First Challenge on Bootcamp GoStack
-</h4>
+</h2>
 
 <h3 align="center">
   NodeJS Basics
