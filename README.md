@@ -1,10 +1,10 @@
 
-<h3 align="center">
+<h4 align="center">
   # First Challenge on Bootcamp GoStack
-</h3>
+</h4>
 
 <h3 align="center">
-  Challenge 1: NodeJS Basics
+  NodeJS Basics
 </h3>
 
 <p align="center">
