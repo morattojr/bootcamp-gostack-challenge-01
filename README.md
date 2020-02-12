@@ -5,8 +5,7 @@
 </h3>
 
 <p align="center">
-  <a href="#rocket-sobre-o-desafio">About the Challenge</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#rocket-sobre-o-desafio">About the Challenge</a>
 </p>
 
 ## :rocket: About the Challenge
@@ -14,37 +13,37 @@ Create an Application to store projects and tasks using [Express](https://expres
 
 ### Routes
 
-- `POST /projects`: A rota deve receber `id` e `title` dentro do corpo e cadastrar um novo projeto dentro de um array no seguinte formato: `{ id: "1", title: 'Novo projeto', tasks: [] }`; Certifique-se de enviar tanto o ID quanto o título do projeto no formato string com aspas duplas.
+- `POST /projects`: This route receives `id` and `title` on body and post a new project within an array in the following format: `{ id: "1", title: 'New project', tasks: [] }`; You have to send the project as a String with double quotes.
 
-- `GET /projects`: Rota que lista todos projetos e suas tarefas;
+- `GET /projects`: List all projects and tasks;
 
-- `PUT /projects/:id`: A rota deve alterar apenas o título do projeto com o `id` presente nos parâmetros da rota;
+- `PUT /projects/:id`: Changes the title by `id`;
 
-- `DELETE /projects/:id`: A rota deve deletar o projeto com o `id` presente nos parâmetros da rota;
+- `DELETE /projects/:id`: Delete project by `id`;
 
-- `POST /projects/:id/tasks`: A rota deve receber um campo `title` e armazenar uma nova tarefa no array de tarefas de um projeto específico escolhido através do `id` presente nos parâmetros da rota;
+- `POST /projects/:id/tasks`: This route receives `title` on body and post a new task on tasks array by `id`;
 
-### Exemplo
+### Example
 
-Se eu chamar a rota `POST /projects` repassando `{ id: 1, title: 'Novo projeto' }` e a rota `POST /projects/1/tasks` com `{ title: 'Nova tarefa' }`, meu array de projetos deve ficar assim:
+Calling the route `POST /projects` with body `{ id: 1, title: 'New project' }` and route `POST /projects/1/tasks` with `{ title: 'New Task' }`, projects array must be like this:
 
 ```js
 [
   {
     id: "1",
-    title: "Novo projeto",
-    tasks: ["Nova tarefa"]
+    title: "New project",
+    tasks: ["New task"]
   }
 ];
 ```
 
 ### Middlewares
 
-- Crie um middleware que será utilizado em todas rotas que recebem o ID do projeto nos parâmetros da URL que verifica se o projeto com aquele ID existe. Se não existir retorne um erro, caso contrário permita a requisição continuar normalmente;
+- checkExistingProjects;
 
-- Crie um middleware global chamado em todas requisições que imprime (`console.log`) uma contagem de quantas requisições foram feitas na aplicação até então;
+- checkNonExistingProjects;
 
 ---
 
-Feito com ♥ by @morattojr
+Made with ♥ by @morattojr
 
