@@ -1,4 +1,7 @@
-# First Challenge on Bootcamp GoStack
+
+<h3 align="center">
+  # First Challenge on Bootcamp GoStack
+</h3>
 
 <h3 align="center">
   Challenge 1: NodeJS Basics
