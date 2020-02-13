@@ -8,7 +8,7 @@
 </h3>
 
 <p align="center">
-  <a href="#rocket-sobre-o-desafio">About the Challenge</a>
+  <a href="#rocket-about-the-challenge">About the Challenge</a>
 </p>
 
 ## :rocket: About the Challenge
