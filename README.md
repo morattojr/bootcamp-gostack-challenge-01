@@ -3,6 +3,8 @@
   # First Challenge on Bootcamp GoStack
 </h2>
 
+<img src="https://github.githubassets.com/images/modules/profile/profile-first-repo.png" alt="Minha Figura">	
+
 <h3 align="center">
   NodeJS Basics
 </h3>
