@@ -47,4 +47,4 @@ Calling the route `POST /projects` with body `{ id: 1, title: 'New project' }` a
 - checkNonExistingProjects;
 
 ---
-<p>Made with ♥ by Geraldo Moratto Junior- <a href="https://www.linkedin.com/in/geraldo-moratto-junior/" rel="nofollow">Get in touch!</a></p>
+<p>Made with ♥ by Geraldo Moratto Junior- <a href="https://www.linkedin.com/in/geraldo-moratto-junior/" target="_blank" rel="nofollow">Get in touch!</a></p>
