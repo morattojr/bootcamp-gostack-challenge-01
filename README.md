@@ -1,52 +1,27 @@
+<h1 align="center">
+  <img alt="GoStack" src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/bootcamp-header.png" width="200px">
+</h1>
 
-<h2 align="center">
-  # First Challenge on Bootcamp GoStack
-</h2>
+<h3 align="center">Desafio 1: Conceitos do NodeJS</h3>
 
-<img src="https://github.githubassets.com/images/modules/profile/profile-first-repo.png" alt="Minha Figura">	
+<p align="center">Nesse projeto foi desenvolvido uma aplicação para armazenar projetos e suas tarefas do zero utilizando <a href=https://expressjs.com/pt-br> Express</a>.</p>
 
-<h3 align="center">
-  NodeJS Basics
-</h3>
+## 🚀 Tecnologias
 
-<p align="center">
-  <a href="#rocket-about-the-challenge">About the Challenge</a>
-</p>
+- ⚡ [JavaScript](https://skylab.rocketseat.com.br/journey/starter)
 
-## :rocket: About the Challenge
-Create an Application to store projects and tasks using [Express](https://expressjs.com/pt-br/).
+## ✋🏻 Pré-requisitos
 
-### Routes
+- ⚡ [Node.js](https://nodejs.org/en/) ou
+- ⚡ [Yarn](https://yarnpkg.com/pt-BR/docs/install)
 
-- `POST /projects`: This route receives `id` and `title` on body and post a new project within an array in the following format: `{ id: "1", title: 'New project', tasks: [] }`; You have to send the project as a String with double quotes.
+## 🔥 Instalação e execução
 
-- `GET /projects`: List all projects and tasks;
-
-- `PUT /projects/:id`: Changes the title by `id`;
-
-- `DELETE /projects/:id`: Delete project by `id`;
-
-- `POST /projects/:id/tasks`: This route receives `title` on body and post a new task on tasks array by `id`;
-
-### Example
-
-Calling the route `POST /projects` with body `{ id: 1, title: 'New project' }` and route `POST /projects/1/tasks` with `{ title: 'New Task' }`, projects array must be like this:
-
-```js
-[
-  {
-    id: "1",
-    title: "New project",
-    tasks: ["New task"]
-  }
-];
-```
-
-### Middlewares
-
-- checkExistingProjects;
-
-- checkNonExistingProjects;
+1. Faça um clone desse repositório;
+2. Entre na pasta `cd 01`;
+3. Rode `npm ou yarn` para instalar as dependências;
+4. Clique no botão [![Run in Insomnia}]<a href="https://insomnia.rest/run/?label=Node%20Basics&uri=https%3A%2F%2Fgithub.com%2Fmorattojr%2Fbootcamp-gostack-challenge-01%2Fblob%2Fmaster%2FInsomnia_2020-04-13.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a> para que seja importado todo o workspace.
 
 ---
+
 <p>Made with ♥ by Geraldo Moratto Junior- <a href="https://www.linkedin.com/in/geraldo-moratto-junior/" target="_blank" rel="nofollow">Get in touch!</a></p>
